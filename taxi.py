@@ -50,7 +50,7 @@ def Taxi(dist=10):
     else:
         tx = tx
         extra = distance2 * tx
-    print('TX:',tx)
+    #print('TX:',tx)
     calculate = round(box + extra)
     print(f'คุณเดินทาง: {dist} กิโลเมตร\nต้องจ่ายเงินค่าแท็กซี่: {calculate} บาท')
 
